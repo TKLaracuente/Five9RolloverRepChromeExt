@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Five9/RolloverRep Helper",
+    "version": "1.0",
+    "description": "Five9 Helper Extension",
+    "content_scripts": [
+        {
+            "matches": ["https://*.five9.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
