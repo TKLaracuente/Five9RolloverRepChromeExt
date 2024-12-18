@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Five9/RolloverRep Helper",
+    "name": "Rollover Rep / Five 9 Helper",
     "version": "1.0",
-    "description": "Five9 Helper Extension",
+    "description": "Five9 Helper Extension for Rollover Rep Agents",
     "content_scripts": [
         {
             "matches": ["https://*.five9.com/*"],
