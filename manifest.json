@@ -8,5 +8,11 @@
             "matches": ["https://*.five9.com/*"],
             "js": ["content.js"]
         }
-    ]
+    ],
+    "icons": {
+        "16": "rr-icon-40.png",
+        "32": "rr-icon-40.png",
+        "48": "rr-icon-48.png",
+        "128": "rr-icon-128.png"
+    }
 }
