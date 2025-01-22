@@ -1,3 +1,11 @@
+## Changelog
+
+### v1.0.0 - 2025-1-1
+- Initial release.
+
+### v1.1.0 - 2025-10-01
+- Fixed bug where campaigns were sometimes too closely named to be selected.
+
 # Five9/RolloverRep Helper Chrome Extension
 
 A Chrome extension that enhances the Five9 experience by automatically managing campaign selection when making calls.

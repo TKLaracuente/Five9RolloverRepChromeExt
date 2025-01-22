@@ -34,10 +34,19 @@ const phoneNumberObserver = new MutationObserver((mutations) => {
                     debugLog('Selecting campaign:', lastSeenCampaign);
 
                     Array.from(campaignSelect.options).forEach(option => {
-                        if (option.text.includes(lastSeenCampaign)) {
-                            campaignSelect.value = option.value;
-                            debugLog('Selected campaign value:', option.value);
+                        if (lastSeenCampaign.includes("Outbound")){
+                            if (option.text === lastSeenCampaign) {
+                                campaignSelect.value = option.value;
+                                debugLog('Selected campaign value:', option.value);
+                            }
                         }
+                        else {
+                            if (option.text === lastSeenCampaign+"-Outbound") {
+                                campaignSelect.value = option.value;
+                                debugLog('Selected campaign value:', option.value);
+                            }
+                        }
+        
                     });
                 }
             }
